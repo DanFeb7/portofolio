@@ -133,24 +133,24 @@ const Projects = () => {
               mt: "3em",
             }}
           >
-            <Tooltip title="More Project Is On My LinkedIn Profile">
-              <Button
-                className="loadMore"
-                variant="contained"
-                sx={{
-                  opacity: 0,
-                  padding: ".5em 3.5em",
-                  background: "transparent",
-                  border: "1px solid",
-                  color: "#0092ff",
-                  ":hover": {
-                    border: "1px solid transparent",
-                  },
-                }}
-              >
-                Load More
-              </Button>
-            </Tooltip>
+            {/* <Tooltip title="More Project Is On My LinkedIn Profile"> */}
+            <Button
+              className="loadMore"
+              variant="contained"
+              sx={{
+                opacity: 0,
+                padding: ".5em 3.5em",
+                background: "transparent",
+                border: "1px solid",
+                color: "#0092ff",
+                ":hover": {
+                  border: "1px solid transparent",
+                },
+              }}
+            >
+              More Project Is On My LinkedIn Profile
+            </Button>
+            {/* </Tooltip> */}
           </Box>
         </Grid>
       </Container>
