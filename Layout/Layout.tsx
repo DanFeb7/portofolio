@@ -16,7 +16,7 @@ const Layout = ({ navbarSx, title, children, desc }: ILayout) => {
     <>
       <Head>
         <title>
-          {title || "Vito Medlej Personal Portfolio | Lebanese Web Developer"}
+          {title || "Daniel Febrian Personal Portfolio | Web Developer"}
         </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
@@ -28,25 +28,25 @@ const Layout = ({ navbarSx, title, children, desc }: ILayout) => {
           name="description"
           content={`${
             desc ||
-            "Vito Medlej personal portfolio, An expert in UI/UX and building complex websites and applications"
+            "Daniel Febrian personal portfolio, An expert in UI/UX and building complex websites and applications"
           }`}
         />
 
         <meta
           property="og:title"
-          content="Vito Medlej Personal Portfolio | Lebanese Web Developer"
+          content="Daniel Febrian Personal Portfolio | Web Developer"
         />
 
         <meta property="og:url" content="https://elvito.netlify.app" />
 
         <meta
           property="og:description"
-          content="Vito Medlej | Web Developer based in Lebanon. And this is my Portfolio and my blog "
+          content="Daniel Febrian | Web Developer based in Indonesia. And this is my Portfolio and my blog "
         />
 
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dwcu3wcol/image/upload/v1658929513/log-removebg-preview_fygpsd.png"
+          content="https://ucarecdn.com/89e50532-a2af-4aa5-96cf-c8c80809c2ba/-/scale_crop/300x300/"
         />
 
         {/* <!-- Og Type -->
@@ -58,7 +58,7 @@ const Layout = ({ navbarSx, title, children, desc }: ILayout) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* <meta name="description" content="Site Meta Description" /> */}
         <meta name="keywords" content="Personal Portfolio" />
-        <meta name="author" content="Vito Medlej" />
+        <meta name="author" content="Daniel Febrian" />
         <meta name="publisher" content="publisher" />
         <meta name="copyright" content="copyright" />
         <meta name="page-topic" content="Web Development | Blog" />
