@@ -85,7 +85,7 @@ function Footer() {
           },
         }}
       >
-        <Link href={"https://www.instagram.com/danfeb._"}>
+        <Link href={"https://www.instagram.com/dfebz_"}>
           <Box
             sx={{
               display: "flex",
@@ -114,7 +114,7 @@ function Footer() {
                 // marginBottom: "8px",
               }}
             />
-            @danfeb._
+            @dfebz_
           </Box>
         </Link>
         <Link href={"https://www.linkedin.com/in/danfeb"}>
