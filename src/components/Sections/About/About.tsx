@@ -66,7 +66,7 @@ const About = () => {
                 alt="Personal Image"
                 className="img1 "
                 layout="fill"
-                src={`https://ucarecdn.com/62fd897f-f614-48a8-9c09-07badaf8f9f4/-/scale_crop/800x800/`}
+                src={`https://ucarecdn.com/b2608909-4426-47ba-9c36-7ebadccbe600/-/scale_crop/800x800/`}
               />
             </Box>
           </Grid>
@@ -108,7 +108,7 @@ const About = () => {
                 }}
               >
                 I am a Web Developer who embarked on my educational journey at
-                UNIKA Soegijapranata, nestled in the heart of Semarang, Central
+                Soegijapranata Catholic University, nestled in the heart of Semarang, Central
                 Java. My initial foray into the world of Web Development saw me
                 navigating various projects as a versatile Fullstack Developer.
                 However, my current endeavors find me predominantly immersed in

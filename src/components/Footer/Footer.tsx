@@ -207,42 +207,42 @@ function Footer() {
             danfeb.febrian007@gmail.com
           </Box>
         </Link>
-        <Link href={"http://wa.me/+6289624783493"}>
-          <Box
-            sx={{
-              display: "flex",
-              flexDirection: {
-                xs: "row",
-                md: "column",
-                lg: "column",
-              },
-              justifyContent: {
-                xs: "start",
-                sm: "start",
-                md: "center",
-                lg: "center",
-              },
-              alignItems: "center",
-              ":hover": {
-                color: "#0092ff",
-              },
-              gap: "8px",
-              mb: {
-                xs: "1em",
-                sm: "1em",
-                md: "0",
-                lg: "0",
-              },
-            }}
-          >
-            <WhatsAppIcon
-              sx={{
-                fontSize: "42px",
-              }}
-            />
-            +62896-2478-3493
-          </Box>
-        </Link>
+        {/*<Link href={"http://wa.me/+6289624783493"}>*/}
+        {/*  <Box*/}
+        {/*    sx={{*/}
+        {/*      display: "flex",*/}
+        {/*      flexDirection: {*/}
+        {/*        xs: "row",*/}
+        {/*        md: "column",*/}
+        {/*        lg: "column",*/}
+        {/*      },*/}
+        {/*      justifyContent: {*/}
+        {/*        xs: "start",*/}
+        {/*        sm: "start",*/}
+        {/*        md: "center",*/}
+        {/*        lg: "center",*/}
+        {/*      },*/}
+        {/*      alignItems: "center",*/}
+        {/*      ":hover": {*/}
+        {/*        color: "#0092ff",*/}
+        {/*      },*/}
+        {/*      gap: "8px",*/}
+        {/*      mb: {*/}
+        {/*        xs: "1em",*/}
+        {/*        sm: "1em",*/}
+        {/*        md: "0",*/}
+        {/*        lg: "0",*/}
+        {/*      },*/}
+        {/*    }}*/}
+        {/*  >*/}
+        {/*    <WhatsAppIcon*/}
+        {/*      sx={{*/}
+        {/*        fontSize: "42px",*/}
+        {/*      }}*/}
+        {/*    />*/}
+        {/*    +62896-2478-3493*/}
+        {/*  </Box>*/}
+        {/*</Link>*/}
       </Box>
       <Copyright />
     </Box>

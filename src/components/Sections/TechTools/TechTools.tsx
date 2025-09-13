@@ -31,23 +31,8 @@ const TechTools = ({ iconsArray }: any) => {
       isBackend: false,
     },
     {
-      title: "Angular JS",
-      svg: "https://www.svgrepo.com/show/373427/angular.svg",
-      isBackend: false,
-    },
-    {
-      title: "Typescript",
-      svg: "https://www.svgrepo.com/show/349540/typescript.svg",
-      isBackend: false,
-    },
-    {
-      title: "Javascript",
-      svg: "https://www.svgrepo.com/show/349419/javascript.svg",
-      isBackend: false,
-    },
-    {
-      title: "PHP",
-      svg: "https://www.svgrepo.com/show/373970/php3.svg",
+      title: "Golang",
+      svg: "https://www.svgrepo.com/show/353795/go.svg",
       isBackend: false,
     },
     {
@@ -58,6 +43,16 @@ const TechTools = ({ iconsArray }: any) => {
     {
       title: "MySQL",
       svg: "https://www.svgrepo.com/show/303251/mysql-logo.svg",
+      isBackend: false,
+    },
+    {
+      title: "n8n",
+      svg: "https://ucarecdn.com/f970b308-b8e6-48a7-ad3b-df55dead10bd/n8nlogo.svg",
+      isBackend: false,
+    },
+    {
+      title: "Docker",
+      svg: "https://www.svgrepo.com/show/448221/docker.svg",
       isBackend: false,
     },
     {
