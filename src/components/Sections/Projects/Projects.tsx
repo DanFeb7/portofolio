@@ -30,6 +30,12 @@ const Projects = () => {
       description:
         "Using WordPress Elementor to redesign the SCU university website (unika.ac.id) and crafting dedicated websites for each faculty, including FK, FITL, FAD, FEB, and others.",
     },
+    {
+      title: "Enterprise Resource Planning (2024)",
+      img: "https://ucarecdn.com/8545df8f-1b18-4a82-8e82-be4b773f14f4/-/scale_crop/1903x945/",
+      description:
+          "Using WordPress Elementor to redesign the SCU university website (unika.ac.id) and crafting dedicated websites for each faculty, including FK, FITL, FAD, FEB, and others.",
+    },
   ];
 
   useEffect(() => {
@@ -126,31 +132,6 @@ const Projects = () => {
                 There was an error loading the projects.
               </Typography>
             )}
-          </Box>
-          <Box
-            sx={{
-              margin: "0 auto",
-              mt: "3em",
-            }}
-          >
-            {/* <Tooltip title="More Project Is On My LinkedIn Profile"> */}
-            <Button
-              className="loadMore"
-              variant="contained"
-              sx={{
-                opacity: 0,
-                padding: ".5em 3.5em",
-                background: "transparent",
-                border: "1px solid",
-                color: "#0092ff",
-                ":hover": {
-                  border: "1px solid transparent",
-                },
-              }}
-            >
-              More Project Is On My LinkedIn Profile
-            </Button>
-            {/* </Tooltip> */}
           </Box>
         </Grid>
       </Container>

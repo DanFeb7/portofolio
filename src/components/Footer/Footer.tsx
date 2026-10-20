@@ -20,9 +20,7 @@ function Copyright() {
         }}
       >
         <Typography variant="h1" fontSize="1em">
-          {"Copyright © "}
           Daniel Febrian {""}
-          {new Date().getFullYear()}
           {"."}
         </Typography>
       </Box>
